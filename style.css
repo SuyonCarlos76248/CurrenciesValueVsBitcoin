@@ -1,0 +1,90 @@
+body {
+  background-color:  #2962AF;
+  color: black;
+}
+ 
+/*class*/
+
+.container{
+    background-color: whitesmoke;
+	height:20;
+}	
+.button{
+    background-color: white;
+    border-radius: 3%;
+    border-color: blue;
+    border-style: solid;
+    float:right;
+    margin: 1px;
+    width: 5%;
+}
+.control{
+    background-color: white;
+    border-radius: 3%;
+    border-color: blue;
+    border-style: solid;
+    float:inline-end;
+    padding: 3px;
+    margin: 3px;
+	width: 15%;
+}
+
+.taskSelected{
+    background-color: green;
+    border: 1px;
+    border-radius: 3%;
+    border-color: blue;
+    border-style: solid;
+    color: blue;
+    padding: 8px;
+    width: auto;
+}
+
+.taskUnselected{
+    background-color: blue;
+    border: 1px;
+    border-radius: 3%;
+    border-color: blue;
+    border-style: solid;
+    color: white;
+    padding: 8px;
+    width: auto;
+}
+
+.buttonDelete{
+    background-color: white;
+    border-radius: 3%;
+    border-color: blue;
+    border-style: solid;
+    float:right;
+    margin: 3px;
+}
+
+.checkBoxDelete{
+    background-color: white;
+    border-radius: 3%;
+    border-color: blue;
+    border-style: solid;
+    float:right;
+    margin: 3px;
+}
+
+
+/*id*/
+
+#header{
+	font-family: 'Times New Roman', Times, serif;
+    margin:5px;
+}
+#list{
+    background-color: white;
+    border-radius: 3%;
+    border-color: golden;
+    border-width: 0.5px;
+    border-style: solid;
+    align-items: stretch;
+    height: 20cm;
+    padding: 2px;
+}
+
+/* label de ingresar tarea y los btns revisar */
