@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 1  Bitcoin value vs Traditional Currencies value.List</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+		 
+		<div class="container">
+			<div id="header">
+               Add National Currency.
+            </div>
+            <div id="content">
+                <div>
+                    <div>
+                        <span>Currency Name:</span>
+                        <input type="text" id="inputName" class="control"> 
+                        <span>Currency Value:</span>
+                        <input type="text" id="inputValue" class="control">
+						<input type="button" id="btnReadMainCurrencies" value="Read Currencies" class="control button" onclick="readCurricies();">		 						
+                        <input type="button" id="btnAddCurrency" value="Add Currency" class="control button" onclick="addCurrency();">
+									
+                    </div>
+                </div>
+                <div id="list">
+                    
+                </div>
+			</div>
+		</div>
+    </body>
+</html>
